@@ -10862,7 +10862,8 @@ textarea.form-control-lg {
   display: inline-block;
   background-image: linear-gradient(to right, #9926f0, #d63384);
   background-clip: text;
-  -weblit-background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
   -webkit-text-fill-color: transparent;
 }
 @media (min-width: 992px) {

@@ -55,7 +55,8 @@ font-family: 'Poppins', sans-serif;
 display: inline-block;
 background-image: linear-gradient(to right,$primary,$secondary);
 background-clip: text;
--weblit-background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
 -webkit-text-fill-color: transparent;
 
 @include media-breakpoint-up(lg){
